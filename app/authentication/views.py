@@ -9,6 +9,16 @@ from .serializers import UserSerializer
 
 class AuthenticationView(APIView):
     def post(self, request):
-        u = User.objects.create(request.data)
-        print(u)
-    ...
+        pass
+
+
+    def put(self, request):
+        pass
+
+
+    def get(self, request):
+        pass
+
+
+    def delete(self, request):
+        pass
