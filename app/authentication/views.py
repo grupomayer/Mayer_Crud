@@ -8,5 +8,7 @@ from .serializers import UserSerializer
 
 
 class AuthenticationView(APIView):
-    ## your code here
+    def post(self, request):
+        u = User.objects.create(request.data)
+        print(u)
     ...
