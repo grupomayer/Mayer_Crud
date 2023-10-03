@@ -1,0 +1,14 @@
+asgiref==3.5.1
+async-timeout==4.0.2
+charset-normalizer==2.0.12
+Deprecated==1.2.13
+Django==3.2.13
+django-cors-headers==3.7.0
+django-filter==21.1
+django-storages==1.13.2
+djangorestframework==3.12.4
+idna==3.3
+jmespath==1.0.1
+numpy==1.25.2
+psycopg2==2.8.6
+requests==2.27.1
